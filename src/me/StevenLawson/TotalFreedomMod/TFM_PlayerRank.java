@@ -8,9 +8,12 @@ import org.bukkit.entity.Player;
 
 public enum TFM_PlayerRank
 {
+    COOWNER("a " + ChatColor.BLUE + "Co-Owner", ChatColor.BLUE + "[Co-Owner]"),
     DEVELOPER("a " + ChatColor.DARK_PURPLE + "Developer", ChatColor.DARK_PURPLE + "[Dev]"),
+    EXECUTIVE("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Executive]"),
     IMPOSTOR("an " + ChatColor.YELLOW + ChatColor.UNDERLINE + "Impostor", ChatColor.YELLOW.toString() + ChatColor.UNDERLINE + "[IMP]"),
     NON_OP("a " + ChatColor.GREEN + "Non-OP", ChatColor.GREEN.toString()),
+    MULTISTA("a " + ChatColor.DARK_GREEN + "Super Telnet Admin with Multicraft", ChatColor.DARK_GREEN + "[Multi-STA]"),
     OP("an " + ChatColor.RED + "OP", ChatColor.RED + "[OP]"),
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "[SA]"),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.DARK_GREEN + "[STA]"),
